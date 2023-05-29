@@ -108,7 +108,7 @@ body {
     background-image: url("../images/secondImg.png");
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     height: 450px;
 }
 
@@ -599,5 +599,67 @@ body {
 
     .navLinksWrapper {
         display: none;
+    }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        height: 45vh;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .pureText {
+        list-style: 0;
+        font-size: 40px;
+    }
+
+    .supportText {
+        line-height: 0;
+        font-size: 60px;
+    }
+
+    .secondSection {
+        height: 250px;
+    }
+
+    .tsPureText {
+        list-style: 0;
+        font-size: 40px;
+    }
+
+    .tsSupportText {
+        line-height: 55px;
+        font-size: 60px;
+    }
+
+    .whyChooseUsText {
+        font-size: 24px;
+        line-height: 0px;
+        padding-left: 0;
+    }
+
+    .helpTextThirdSection {
+        padding-left: 0;
+        font-size: 18px;
+    }
+
+    .helpTextThirdSection1{
+        padding-left: 0;
+        font-size: 18px;
+    }
+
+    .proContain {
+        padding-left: 0;
+    }
+
+    .rounded {
+        width: 360px;
+        height: 360px;
+        object-fit: cover;
+    }
+
+    .mlBadge{
+        margin-bottom: 0;
     }
 }
